@@ -150,6 +150,23 @@ td {
 	margin-right:35px;
 }
 
+#softshot{
+	width:8px;
+	padding-top:45px;
+	text-align:center;
+	float:left;
+}
+
+#softshot img {
+	width: 170px;
+	height: 70px;
+	border:0.2px #eeeeee solid;
+	padding:1px;
+	background-color:#f7f7f7;
+	margin-left:5px;
+	margin-right:35px;
+}
+
 #main_info_container{
 	position: relative;
 	margin-left: 295px;

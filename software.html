@@ -19,9 +19,9 @@
     <div id="main_navigation" class="main-menu ">
         <ul>
             <li><a href="./index.html" title="Home" >Home</a></li>
-            <li><a href="./research.html" class="thispage">Research</a></li>
+            <li><a href="./research.html">Research</a></li>
             <li><a href="./publications.html">Publications</a></li>
-            <li><a href="./software.html">Software</a></li>
+            <li><a href="./software.html" class="thispage">Software</a></li>
             <li><a href="./misc.html">Misc.</a></li>
             <li><a href="./blog.html">Blog</a></li>
         </ul>
@@ -92,7 +92,7 @@
             <p>
 
             </p>
-            <h1>Current Research</h1>
+            <h1>Software</h1>
 
             <div id="blockshot">
                 <img src="./images/ride%20share.png" align="middle">
@@ -104,28 +104,67 @@
 
                     <div class="pages_post_descr_main">
 
-
-                        <h5><b> Helio - On Demand High Capacity Ride Sharing for Mobility on Demand (MoD) Systems </b></h5>
-                        <p>Mobility-on-demand (MoD) systems are emerging as a novel mode for urban mobility which provide users with a
-                            reliable mode of transportation that is catered to the individual needs. Ride sharing services provided by
-                            these mobility on demand systems provide not only a very personalized mobility experience but also present
-                            immense potential for positive societal impacts with reference to pollution, energy consumption, congestion,
-                            and etc. Ride sharing services primarily concern with picking up spatiotemporally distributed mobility demand
-                            and delivering it within a pre-specified time window subjected to different constraints. Large scale ride
-                            sharing in more sophisticated spatio-temporally distributed mobility demand distributions, require well designed
-                            mathematical models and algorithms in order to match riders and vehicle fleets in real time. In this research,
-                            the motive is to design and develop a dynamic model for ride sharing which is reactive anytime optimal and can
-                            perform dynamic vehicle assignment in an effective and efficient manner while being able to scale well with both
-                            sparse and dense spatio-temporal demand distributions.</p>
-
-                        <p><strong>Keywords</strong> :  Ride sharing, Human Mobility, Vehicle Routing, Smart Cities, Intelligent Transport Systems, Mobility on demand	 </p>
+                        <br>
+                        <h5><b> Helio - Ride Sharing Open Source Implementation </b></h5>
+                        <p> A repicated sample implementation of <a href="http://www.pnas.org/content/114/3/462"> On-demand high-capacity ride-sharing via dynamic trip-vehicle assignment by
+                        </a>Javier Alonso-Moraa, Samitha Samaranayake, Alex Wallara, Emilio Frazzolic, and Daniela Rusa.</p>
 
                         <ul style="list-style-type:disc">
-                            <li>Implementation and presentation of On-demand high capacity ride sharing via dynamic trip vehicle assignment
-                                in to Sri Lankan context using local taxi aggregator data set.</li>
-                            <br>
-
                             <a href="./docs/LinkR.pdf">Slide</a>  | <a href="https://github.com/RideSharingMSc/Helio">Code</a> | <a href="http://www.pnas.org/content/114/3/462.full.pdf">Paper</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+
+
+            <div id="softshot">
+                <img src="./images/charon.png" align="middle">
+            </div>
+
+            <div id="main_info_research">
+
+                <div class="pages_post_descr">
+
+                    <div class="pages_post_descr_main">
+
+
+                        <h5><b> Charon - SCIM 2.0 Open Source Implementation </b></h5>
+                        <p> Charon is a java based open source implementation of SCIM protocol which is an open standard for Identity Provisioning.
+                            Charon comes under Apache 2.0 license.
+                            It can be used by any one who wants to add SCIM-based provisioning support for their applications.
+                            This library was written by me with the supervision of WSO2 Identity Server team. </p>
+
+                        <ul style="list-style-type:disc">
+                            <a href="https://www.youtube.com/watch?v=XJ53x_8oAWg"> Demo | </a>
+                            <a href="https://github.com/wso2-incubator/scim2-compliance-test-suite"> Code | </a>
+                            <a href="https://medium.com/@vindulajayawardana/scim-2-0-compliance-test-suite-737fd4ace3cc">Blog</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="softshot">
+                <img src="./images/test%20suite.png" align="middle">
+            </div>
+
+            <div id="main_info_research">
+
+                <div class="pages_post_descr">
+
+                    <div class="pages_post_descr_main">
+
+
+                        <h5><b> SCIM 2.0 Compliance Test Suite </b></h5>
+                        <p>This project is on implementing the SCIM 2.0 compliance test suite which can be run on both the cloud and on premise.
+                            In the test suite, it is intended to validate the supportability of a provided service provider, in terms of
+                            the SCIM 2.0 core specification and protocol specification. </p>
+
+                        <ul style="list-style-type:disc">
+                            <a href="https://github.com/wso2/charon"> Code | </a>
+                            <a href="https://medium.com/@vindulajayawardana/scim-make-it-fast-cheap-and-easy-b2bd56492c15">Blog 1 |</a>
+                            <a href="https://medium.com/@vindulajayawardana/5-things-that-will-not-be-a-nightmare-anymore-if-you-support-scim-9353d73836a7"> Blog 2  </a>                        </ul>
+
                         </ul>
                     </div>
                 </div>
@@ -140,93 +179,22 @@
                 <div class="pages_post_descr">
 
                     <div class="pages_post_descr_main">
+                        <br>
 
-
-                        <h5><b> Titan Law - Ontology Based Legal Information Extraction </b></h5>
+                        <h5><b> Titan Law - Contextually similar legal case finding app </b></h5>
                         <p>Lawyers and paralegals spend a lot of time searching for the information
-                            they need from legal documents for a given task or a court case. Such legal documents - presenting the statutes (laws)
-                            and court cases - are generally available online. Keyword-based search over these documents, as carried out by web
-                            search engines, is not sufficient here because a more sophisticated understanding of the contents is needed.
-                            Ontology-based information extraction, where a formal and explicit specification of a shared conceptualization is
-                            used to extract certain type of information, is naturally suitable for this type of work. The objective of this
-                            project is to to develop an ontology-based information extraction system for law, limited in scope for one or two
-                            areas of law such as Business Law and Consumer Law, that helps lawyers and paralegals in their work. </p>
-
-                        <p><strong>Keywords</strong> :  Ontology, Information Extraction, Natural Language Processing	 </p>
-
+                            they need from legal documents for a given task or a court case.
+                            This app helps them to easily find those similar cases just typing the case at hand in natural human text. </p>
                         <ul style="list-style-type:disc">
-                            <li>Final theses of the project</li>
-                            <a href="./docs/LinkR.pdf">PDF | </a>
                             <a href="./docs/OBLIE%20-%20Ontology%20Based%20Legal%20Information%20Extarction.pdf">
-                                Slide | </a>
-                            <a href="https://www.youtube.com/watch?v=HsyaBOhNU8s">Demo </a>
-
-                            <li>Keet Sugathadasa, Buddhi Ayesha, Nisansa de Silva, Amal Shehan Perera, <b>Vindula Jayawardana</b>, Dimuthu Lakmal, Madhavi Perera
-                                <br>Legal Document Retrieval Using Document Vector Embeddings and Deep Learning
-                                <br><a href="https://saiconference.com/Computing">Science and Information Conference (SAI) 2018</a> in London, United Kingdom
-                                <br><font color="#ff4500">to appear</font>
-                            </li>
-
-                            <li><b>Vindula Jayawardana</b>, Dimuthu Lakmal, Nisansa de Silva, Amal Shehan Perera, Keet Sugathadasa, Buddhi Ayesha, Madhavi Perera
-                                <br>Semi-Supervised Instance Population of an Ontology using Word Vector Embeddings
-                                <br><a href="http://www.icter.org/conference/"> International Conference on Advances in ICT for
-                                    Emerging Regions (ICTer 2017)</a> at Colombo, Sri Lanka
-                                </li>
-                            <a href="./docs/Semi-Supervised%20Instance%20Population%20of%20an%20Ontology%20using%20Word%20Vector%20Embeddings.pdf">
-                                Slide | </a>
-                            <a href="https://arxiv.org/pdf/1709.02911.pdf">Paper</a>
-
-                            <li><b>Vindula Jayawardana</b>, Dimuthu Lakmal, Nisansa de Silva, Amal Shehan Perera, Keet Sugathadasa, Buddhi Ayesha
-                                <br>Deriving a Representative Vector for Ontology Classes with Instance Word Vector Embeddings
-                                <br><a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=8091147">Seventh
-                                    International Conference on Innovative Computing Technology (INTECH 2017) </a> at Luton, United Kingdom
-                            </li>
-                            <a href="./docs/Deriving%20a%20Representative%20Vector%20for%20Ontology%20Classes%20with%20Instance%20Word%20Vector%20Embeddings.pdf">
-                                Slide | </a>
-                            <a href="https://arxiv.org/pdf/1706.02909.pdf">Paper</a>
-
-                            <li>Keet Sugathadasa, Buddhi Ayesha, Nisansa de Silva, Amal Shehan Perera, <b>Vindula Jayawardana</b>, Dimuthu Lakmal, Madhavi Perera
-                                <br>Synergistic Union of Word2Vec and Lexicon for Domain Specific Semantic Similarity
-                                <br><a href="http://www.iciis.org/"> 12th IEEE International Conference on Industrial and
-                                    Information Systems (ICIIS) 2017 </a> at Peradeniya, Sri Lanka
-                            </li>
-                            <a href="./docs/Synergistic%20Union%20of%20Word2vec%20and%20Lexicon%20for%20Domain%20Specific%20Semantic%20Similarity.pdf">
-                                Slide | </a>
-                            <a href="https://arxiv.org/pdf/1706.01967.pdf">Paper</a>
+                            Slide | </a>
+                            <a href="https://www.youtube.com/watch?v=HsyaBOhNU8s">Demo</a>
                         </ul>
                     </div>
                 </div>
             </div>
 
-
-            <div id="blockshot">
-                <img src="./images/cric.png" align="middle">
-            </div>
-
-            <div id="main_info_research">
-
-                <div class="pages_post_descr">
-
-                    <div class="pages_post_descr_main">
-
-
-                        <h5><b> Fitness Analysis of Sri Lankan National Cricketers </b></h5>
-                        <p>There is dogma that higher training load
-                            causes higher injury rates. However, there is also
-                            evidence that training has a protective effect against
-                            injury. Sport scientists have been making hard effort
-                            to find out how the training has the influence on performance. Thus,
-                            training monitoring is important tool to evaluate an athlete’s response to
-                            training. In this research, it is intend to identify cricket specific parameters that need to be paid
-                            attention in training and how to manage the training workload of different players separately. </p>
-
-                        <p><strong>Keywords</strong> :  Cricket, External Load, Internal Load, Training Adaptation, Monitoring </p>
-
-                    </div>
-                </div>
-            </div>
-
-        <br>
+        <br><br>
         </div>
     </div><!--end of main_container-->
 
