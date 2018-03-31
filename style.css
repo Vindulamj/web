@@ -118,7 +118,7 @@ td {
 * main container                   *
 ************************************/
 #main_container {
-    width: 58%;
+    width: 980px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -383,7 +383,7 @@ a#logo {
     right: 0px;
     padding-top: 5px;
     float: right;
-    width: 100%;
+    width: 980px;
     margin-top: -46px;
     z-index: 100;
     font-size: 14px;
