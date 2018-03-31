@@ -155,7 +155,7 @@ td {
 
 #blockshot {
     width: 8px;
-    padding-top: 45px;
+    padding-top: 5px;
     text-align: center;
     float: left;
 }
@@ -231,6 +231,15 @@ td {
     padding-left: 0px;
     font-size: 14px;
     padding-top: 40px;
+}
+
+#main_info_research_new {
+    position: relative;
+    margin-left: 195px;
+    width: 635px;
+    padding-left: 0px;
+    font-size: 14px;
+    padding-top: 0px;
 }
 
 #main_info_edu {
