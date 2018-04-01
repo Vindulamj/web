@@ -965,12 +965,17 @@ img.sidebarpost_thumb {
 }
 
 .page_content {
+    position: relative;
     width: 920px;
-    padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 0;
     padding-left: 20px;
 }
+
+.page_content_pubs {
+    padding-left: 30px;
+}
+
 
 .pages_thumb {
     border: 3px #dfddd4 solid;
@@ -1204,7 +1209,6 @@ a.nav_right {
     padding: 0px 0 0 15px;
     margin: 0px;
     color: #686868;
-    background: url(./images/bullet_blue.gif) no-repeat left;
     text-decoration: none;
 }
 
