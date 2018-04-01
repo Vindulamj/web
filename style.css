@@ -978,7 +978,7 @@ img.sidebarpost_thumb {
 }
 
 .pages_post_descr {
-    width: 650px;
+    width: 100%;
     border-top: 0px;
     border-bottom: 0px;;
     padding: 5px 0 5px 0;
