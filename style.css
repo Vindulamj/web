@@ -127,6 +127,7 @@ td {
 }
 
 #header_container {
+    position: inherit;
     height: 260px;
     margin-left: 0px;
     margin-right: 0px;
