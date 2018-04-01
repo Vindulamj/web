@@ -127,8 +127,7 @@ td {
 }
 
 #header_container {
-    position: inherit;
-    height: 260px;
+    height: auto;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: -5px;
@@ -220,7 +219,6 @@ td {
 }
 
 #main_info_container {
-    position: relative;
     margin-left: 295px;
     width: 635px;
     padding-left: 0px;
@@ -966,7 +964,6 @@ img.sidebarpost_thumb {
 }
 
 .page_content {
-    position: relative;
     width: 920px;
     padding-right: 20px;
     padding-bottom: 0;
@@ -1192,7 +1189,7 @@ a.nav_right {
 .fullwidth_content {
     width: 832px;
     float: left;
-    padding: 25px 0 0 28px;
+    padding: 5px 0 0 28px;
 }
 
 .fullwidth_content ul {
