@@ -143,12 +143,11 @@ td {
 #headshot img {
     width: 210px;
     height: 210px;
-    border: 1px #ffffff solid;
+    border: 1px #eeeeee solid;
     padding: 5px;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     margin-left: 45px;
     margin-right: 35px;
-    margin-bottom: 100px;
 }
 
 #blockshot {
