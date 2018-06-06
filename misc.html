@@ -60,7 +60,7 @@
 
 
                     <p><b>Graduate Research Assistant | Consultant Research Engineer | Entrepreneur</b></p>
-                    <p>Data Science, Engineering & Analytics Research Group, University of Moratuwa, Sri Lanka </p>
+                    <p><a href="https://www.mrt.ac.lk/web/datasearch/about">Data Science, Engineering & Analytics Research Group, University of Moratuwa, Sri Lanka </a></p>
 
                     <p><strong>Contact</strong> : Computer Science and Engineering Department<br>University of Moratuwa,
                         Sri Lanka</p>
@@ -96,15 +96,15 @@
                         Within best 5 products in the world (25,000+ participants, 69 countries)
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/nasa.jpg">[Photo]</a><br>
+                        <a onclick="LoadPhoto('images/nasa.jpg')">[Photo] </a><br>
                         <a href="http://www.readme.lk/sri-lankan-team-nasa-international-space-apps-challenge/">
                             [Article 1]</a><br>
                         <a href="http://www.pulse.lk/tech/sri-lankas-team-codon-makes-finals-nasas-space-apps-challenge/">
-                            [Article 1]</a><br>
+                            [Article 2]</a><br>
                         <a href="https://roar.media/sinhala/tech/insights/team-codon-from-moratuwa-ready-to-take-on-the-world/">[Article
-                            1]</a><br>
+                            3]</a><br>
                         <a href="http://nation.lk/online/2017/06/10/codon-makes-galactic-impact.html">[Article
-                            1]</a><br>
+                            4]</a><br>
                         <a href="https://www.youtube.com/watch?v=Y01WwyOq2Xk">FB Live</a>
                     </td>
                 </tr>
@@ -117,7 +117,7 @@
                         Final Contestant out of 7000+ participants in 72 countries
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/htn.jpg">[Photo]</a><br>
+                        <a onclick="LoadPhoto('images/htn.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -129,7 +129,7 @@
                         Within top 20 products in the world
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/airvolution.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/airvolution.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -141,7 +141,7 @@
                         Gold Award for best student ICT project
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/nbqsa.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/nbqsa.png')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -176,7 +176,7 @@
                         Four Special Recognitions
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/uni%202017.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/uni%202017.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -188,7 +188,7 @@
                         Two Special Recognitions
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/uni2016.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/uni2016.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -200,7 +200,7 @@
                         Special Recognition
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/compAwards.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/compAwards.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -212,7 +212,7 @@
                         National 1st place
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/googleIO.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/googleIO.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -224,7 +224,7 @@
                         National 2nd place
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/yarl.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/yarl.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
                 <tr>
@@ -235,7 +235,7 @@
                         National 2nd place
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/cimaLP.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/cimaLP.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -247,7 +247,7 @@
                         National 1st place
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/fiontrai.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/fiontrai.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
                 <tr>
@@ -258,7 +258,7 @@
                         National 3rd place
                     </td>
                     <td style="width:10%;">
-                        <a href="./images/hackAdev.jpg">[Photo]</a><br>
+                            <a onclick="LoadPhoto('images/hackAdev.jpg')">[Photo] </a><br>
                     </td>
                 </tr>
 
@@ -442,6 +442,11 @@
 
             <br>
         </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+        </div>
     </div><!--end of main_container-->
 
     <div class="bottom_divider"></div>
@@ -454,4 +459,25 @@
 </div><!--end of main_container-->
 <br>
 </body>
+<script>
+
+        function LoadPhoto(path) {
+
+            // Get the modal
+            var modal = document.getElementById('myModal');
+        
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var modalImg = document.getElementById("img01");
+            modal.style.display = "block";
+            modalImg.src = path;
+        
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+        
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                modal.style.display = "none";
+            } 
+        }
+</script>
 </html>

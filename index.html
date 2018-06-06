@@ -60,7 +60,7 @@
 
 
                     <p><b>Graduate Research Assistant | Consultant Research Engineer | Entrepreneur</b></p>
-                    <p>Data Science, Engineering & Analytics Research Group, University of Moratuwa, Sri Lanka </p>
+                    <p><a href="https://www.mrt.ac.lk/web/datasearch/about">Data Science, Engineering & Analytics Research Group, University of Moratuwa, Sri Lanka </a></p>
 
                     <p><strong>Contact</strong> : Computer Science and Engineering Department<br>University of Moratuwa,
                         Sri Lanka</p>
@@ -112,6 +112,14 @@
                 <tbody>
                 <tr>
                     <td style="width:80px; ">
+                        June 2018
+                    </td>
+                    <td>
+                        Joining <a href="https://www.cornell.edu/">Cornell Univeisty, USA</a> as a short term research scholar.
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:80px; ">
                         July 2018
                     </td>
                     <td>
@@ -133,6 +141,42 @@
                 <tbody>
                 <tr>
                     <td style="width:80px; ">
+                         May 2018
+                    </td>
+                    <td>
+                        Our invited journal paper on "Word Vector Embeddings and Domain Specific Semantic Similarity based Semi-Supervised Ontology Instance Population"
+                        was accpeted to <a href="http://journal.icter.org/index.php/ICTer/index">The International Journal on Advances in ICT for Emerging Regions (ICTer)</a>.
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:80px; ">
+                             May 2018
+                        </td>
+                        <td>
+                           Successfully completed quatley research review at <a href="https://www.mrt.ac.lk/web/datasearch/about">
+                                Data Science, Engineering & Analytics Research Group, University of Moratuwa, Sri Lanka</a>
+                        </td>
+                        <td>
+                            <a href="https://www.mrt.ac.lk/web/datasearch/blog/datasearch-progress-review-14th-may-2018">
+                                    [Photos]</a>
+                        </td>
+                </tr>
+                <tr>
+                        <td style="width:80px; ">
+                            May 2018
+                        </td>
+                        <td>
+                            Launched TrainLK app to the gereral public. The project was carried as a community service. 
+                        </td>
+                        <td>
+                                <a href="https://www.youtube.com/watch?v=jinTX41EFPk&feature=youtu.be">
+                                    [Lauch Video]</a>
+                        </td>
+                </tr>
+                <tr>
+                    <td style="width:80px; ">
                         Mar 2018
                     </td>
                     <td>
@@ -149,7 +193,7 @@
                     </td>
                     <td>
                         Visit to <a href="http://www.ntu.edu.sg/Pages/home.aspx"> Nanyang University (NTU) of
-                        Singapore </a>research discussions along with meetups
+                        Singapore </a> and research discussions along with meetups
                     </td>
                     <td>
                     </td>
@@ -283,12 +327,10 @@
                     </td>
                     <td>
                         Awarded with the Gold Award for best student technology project in <a
-                            href="http://www.nbqsa.org">
-                        National Best Quality ICT Awards (NBQSA) 2017</a>
+                            href="http://www.nbqsa.org"> National Best Quality ICT Awards (NBQSA) 2017</a>
                     </td>
                     <td>
-                        <a href="https://drive.google.com/file/d/0BxEwxypKw0ElcHdtd1MybTh4czA/view?usp=sharing">
-                            [Photo]</a>
+                        <a onclick="LoadPhoto('images/nbqsa.png')">[Photo] </a>
                     </td>
                 </tr>
                 <tr>
@@ -413,8 +455,33 @@
         <p>Template Credits : <a href="http://www.premiumfreebies.eu/web-templates/minifolio-free-template/" target="_blank">MiniFolio</a> / Modified by
             Vindula Jayawardana</p>
     </div>
-
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+    </div>
 </div><!--end of main_container-->
 <br>
 </body>
+<script>
+
+        function LoadPhoto(path) {
+
+            // Get the modal
+            var modal = document.getElementById('myModal');
+        
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var modalImg = document.getElementById("img01");
+            modal.style.display = "block";
+            modalImg.src = path;
+        
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+        
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                modal.style.display = "none";
+            } 
+        }
+</script>
 </html>
