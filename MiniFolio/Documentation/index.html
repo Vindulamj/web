@@ -1,0 +1,229 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>MiniFolio Template Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;MiniFolio&rdquo; Documentation by &ldquo;Oussama Afellad - PremiumFreebies.eu&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;MiniFolio Premium Template&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 16/07/2011<br>
+					By: Oussama Afellad<br>
+					Email: <a href="mailto:istoredesigns@live.com">istoredesigns@live.com</a><br>
+					<a href="http://www.premiumfreebies.eu">www.PremiumFreebies.eu</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">If you have any questions that are beyond the scope of this help file, please feel free to email via my blog's contact form <a href="http://www.premiumfreebies.eu/contact-us/">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#backgrounds">Backgrounds</a> <em class="quiet small">(If you would like to change the website's background)</em></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+			
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<strong>1) HOMEPAGE Structure</strong>
+		<p>This theme is a fixed layout with two columns. All of the information within the main content area in the homepage is nested within a div with an id of "page_content". The sidebar's (column #2) content is within a div with an id of "sidebar_home".</p>
+		
+		<strong>2) FULL WIDTH Page</strong>
+		<p>Pages without a sidebar are simple. All of the content is nested within a div with an id of "fullwidth_content".</p>
+
+		<strong>3) Other Pages</strong>
+		<p> All of the information within the main content area in the homepage is nested within a div with an id of "page_content". The sidebar's (column #2) content is within a div with an id of "sidebar".</p>
+		
+		<h2>* Useful codes</h2>	
+		<strong>List Style Text</strong>
+		<p> If you would like to insert a list style text with a blue bullet next to it. Use this code:</p>
+		
+<pre>	    &lt;ul&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Text 1&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Text 2&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Text 3&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Text 4&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href="#"&gt;Text 5&lt;/a&gt;&lt;/li&gt;
+	    &lt;/ul&gt;
+</pre>
+		<hr>
+		<strong>2 Text Blocks in The Page Content: </strong>
+		<p> If you would like to insert 2 block texts, one floated to the left and the other to the right. Use this code:</p>
+		
+<pre>	    For the Left block, use this code:
+
+	&lt;div class="left_section"&gt;
+		&lt;h3&gt;Left Block&lt;/h3&gt;
+		&lt;p&gt;Write some text here&lt;/p&gt;
+		&lt;div class="left_section_more"&gt;&lt;a href="#"&gt;read more&lt;/a&gt;&lt;/div&gt;
+	&lt;/div&gt;
+
+And for the right block, use this code:
+
+	&lt;div class="right_section"&gt;
+		&lt;h3&gt;Right Block&lt;/h3&gt;
+		&lt;p&gt;Write some text here&lt;/p&gt;
+		&lt;div class="right_section_more"&gt;&lt;a href="#"&gt;read more&lt;/a&gt;&lt;/div&gt;
+	&lt;/div&gt;
+</pre>
+		<hr>
+		<strong>Blockquotes: </strong>
+		<p> If you would like to insert a text as a blockquote. Use this code:</p>
+		
+<pre>	    &lt;blockquote&gt;
+		Write your text here
+	    &lt;/blockquote&gt;
+</pre>
+		<hr>
+		<strong>Testimonials:</strong>
+		<p> If you would like to insert testimonials as a slider as it appears in the bottom of the homepage of the template. Use this code:</p>
+		
+<pre>	    
+	&lt;div id="slider1" class="sliderwrapper"&gt;
+		&lt;div class="contentdiv"&gt;
+			&lt;div class="testimonial_box"&gt;
+				&lt;p&gt;Write the first testimonial here ...&lt;/p&gt;
+					&lt;div class="testimonial_details"&gt;
+						&lt;p&gt;John Doe, Company name&lt;/p&gt;
+					&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="contentdiv"&gt;
+			&lt;div class="testimonial_box"&gt;
+				&lt;p&gt;Write the second testimonial here ...&lt;/p&gt;
+					&lt;div class="testimonial_details"&gt;
+						&lt;p&gt;John Doe, Company name&lt;/p&gt;
+					&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div class="contentdiv"&gt;
+			&lt;div class="testimonial_box"&gt;
+				&lt;p&gt;Write the third testimonial here ...&lt;/p&gt;
+					&lt;div class="testimonial_details"&gt;
+						&lt;p&gt;John Doe, Company name&lt;/p&gt;
+					&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+
+		&lt;div id="paginate-slider1" class="pagination"&gt;&lt;/div&gt;
+	&lt;/div&gt;
+</pre>
+
+
+	<p> <strong>Or if you would like to insert a normal testimonial text as it appears in the testimonials page, use this code:</strong></p>
+
+<pre>	    
+		&lt;div class="testimonial_box_wide"&gt;
+			&lt;p&gt;Write The testimonial here&lt;/p&gt;
+				&lt;div class="testimonial_details_wide"&gt;
+					&lt;p&gt;John Doe, Company name&lt;/p&gt;
+				&lt;/div&gt;
+		&lt;/div&gt;
+</pre>
+		<hr>
+		<strong>Slider: </strong>
+		<p> To insert a jQuery slider, or edit the one in the homepage. Use this code:</p>
+		
+<pre>
+	&lt;div id="slider-wrapper"&gt;
+
+		&lt;div id="slider" class="nivoSlider"&gt;
+			&lt;img src="image url" alt="" title="This is an example of a caption" /&gt;
+			&lt;img src="image url" alt="" title="This is an example of a caption" /&gt;
+			&lt;img src="image url" alt="" title="This is an example of a caption" /&gt;
+			&lt;img src="image url" alt="" title="This is an example of a caption" /&gt;
+		&lt;/div&gt;
+
+	&lt;/div&gt;
+</pre>
+
+	<p> As you can see, change the "image url" with the url of the image, and edit the title tag if you want to add a description to the image in the slider, if you don't want to, leave it blank or remove it </p>
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+
+		<p>There are 4 css files in this template: nivo-slider.css / prettyphoto.css / style-ie.css / style.css. The important for us is <strong>style.css</strong></p> 
+
+		<p>This file contains all of the specific stylings for the page. The file is separated into sections using:</p>  
+
+<pre>	/* === General Styles === */
+
+	General styles codes ...
+
+	/* === Main Container === */
+	
+	Main Container style codes ...
+	
+	/* === Slider Styles === */
+	
+	Slider style codes ...
+	
+	/* === Main Navigation === */
+	
+	Main Navigation style codes ...
+	
+	etc, etc. 
+</pre>
+
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+
+
+		<hr>
+		
+		<h3 id="backgrounds"><strong>C) Backgrounds</strong> - <a href="#toc">top</a></h3>
+		<p>I've included few other backgrounds that you may use as a background of the template, that could be found in "Other Backgrounds" Folder. Pick the background you would like to use, change its name to "bg.gif" and copy it to /images folder. Overwrite the existing bg file and it should work for you.</p>
+		<hr>
+		
+
+		<h3 id="credits"><strong>D) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, or other files as listed.
+		
+		<ul>
+			<li>Slider Images from a template in ThemeForest called Captstan.</li>
+			<li>Other images from royalty free stocks.</li>
+			<li>Nivo-Slider by dev7studios</li>
+			<li>Font replacement by "COM4t"</li>
+		</ul>
+		
+		<hr>
+		
+		<p>As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist.</p> 
+		
+		<p class="append-bottom alt large"><strong>Oussama - <a href="http://www.istoredesigns.com">iStoreDesigns</a> - <a href="http://www.premiumfreebies.eu">PremiumFreebies</a></strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
