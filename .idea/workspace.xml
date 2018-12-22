@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="847a5f80-6c85-431e-b150-acef589d386f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/cv.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/talk.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/forest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_86f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_880.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_894.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_8a0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_8a6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_8b7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/samanala_wewa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/dp.jpg" afterPath="$PROJECT_DIR$/images/dp.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog.html" afterPath="$PROJECT_DIR$/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc.html" afterPath="$PROJECT_DIR$/misc.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pubs.html" afterPath="$PROJECT_DIR$/pubs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/research.html" afterPath="$PROJECT_DIR$/research.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/software.html" afterPath="$PROJECT_DIR$/software.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/forest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_86f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_880.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_894.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_8a0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_8a6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/fullsizeoutput_8b7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/samanala_wewa.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/forest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fullsizeoutput_86f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fullsizeoutput_880.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fullsizeoutput_894.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fullsizeoutput_8a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fullsizeoutput_8a6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/fullsizeoutput_8b7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/samanala_wewa.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/personal.html" afterPath="$PROJECT_DIR$/personal.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -182,10 +180,10 @@
       <file leaf-file-name="personal.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/personal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="145" column="201" lean-forward="false" selection-start-line="145" selection-start-column="201" selection-end-line="145" selection-end-column="201" />
+            <state relative-caret-position="47">
+              <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="28" />
               <folding>
-                <element signature="e#8537#8544#1" expanded="true" />
+                <element signature="e#8559#8566#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -430,12 +428,12 @@
       <workItem from="1522854653480" duration="147000" />
       <workItem from="1531278644770" duration="1756000" />
       <workItem from="1538486531417" duration="2804000" />
-      <workItem from="1545449250123" duration="5129000" />
+      <workItem from="1545449250123" duration="5568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59140000" />
+    <option name="totallyTimeSpent" value="59579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1231,10 +1229,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/personal.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="145" column="201" lean-forward="false" selection-start-line="145" selection-start-column="201" selection-end-line="145" selection-end-column="201" />
+        <state relative-caret-position="47">
+          <caret line="164" column="28" lean-forward="false" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="28" />
           <folding>
-            <element signature="e#8537#8544#1" expanded="true" />
+            <element signature="e#8559#8566#1" expanded="true" />
           </folding>
         </state>
       </provider>
