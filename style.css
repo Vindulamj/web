@@ -1346,9 +1346,4 @@ label.error {
     .modal-content {
         width: 100%;
     }
-    body {
-        width: 100%;
-        font: 14px "Merriweather Sans", "Roboto", Helvetica, Helvetica Neue, Arial;
-        font-weight: 300;
-    }
 }
