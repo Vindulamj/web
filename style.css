@@ -14,6 +14,7 @@ html {
 body {
     font: 14px "Merriweather Sans", "Roboto", Helvetica, Helvetica Neue, Arial;
     font-weight: 300;
+    width: 100%;
 }
 
 strong {
@@ -109,7 +110,7 @@ td {
 * main container                   *
 ************************************/
 #main_container {
-    margin: 0 auto;
+    margin: auto;
     margin-top: 4px;
     width: 65%;
     padding-bottom: 15px;
@@ -117,9 +118,8 @@ td {
 
 #header_container {
     height: auto;
-    margin-left: 0px;
-    margin-right: 0px;
     margin-top: -5px;
+    max-width:100%;
 }
 
 #headshot {
@@ -209,7 +209,7 @@ td {
 
 #main_info_container {
     margin-left: 295px;
-    width: 635px;
+    max-width: 635px;
     padding-left: 0px;
     font-size: 14px;
     padding-top: 22px;
@@ -395,6 +395,7 @@ a#logo {
     font-size: 14px;
     text-align: center;
     margin-left: 25px;
+    max-width:100%;
 }
 
 #main_navigation ul {
@@ -952,9 +953,7 @@ img.sidebarpost_thumb {
 }
 
 .page_content {
-    padding-right: 20px;
     padding-bottom: 0;
-    padding-left: 20px;
 }
 
 .page_content_pubs {
@@ -1174,8 +1173,7 @@ a.nav_right {
 
 /*---------------------------full width--------------------------------------------------*/
 .fullwidth_content {
-    width: 1032px;
-    float: left;
+    width: 100%;
     padding: 5px 0 0 28px;
 }
 
