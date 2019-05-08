@@ -12,9 +12,10 @@ html {
 }
 
 body {
+    margin: auto;
+    width: 65%;
     font: 14px "Merriweather Sans", "Roboto", Helvetica, Helvetica Neue, Arial;
     font-weight: 300;
-    width: 100%;
 }
 
 strong {
@@ -110,16 +111,13 @@ td {
 * main container                   *
 ************************************/
 #main_container {
-    margin: auto;
     margin-top: 4px;
-    width: 65%;
     padding-bottom: 15px;
 }
 
 #header_container {
     height: auto;
     margin-top: -5px;
-    max-width:100%;
 }
 
 #headshot {
@@ -394,8 +392,6 @@ a#logo {
     padding-top: 5px;
     font-size: 14px;
     text-align: center;
-    margin-left: 25px;
-    max-width:100%;
 }
 
 #main_navigation ul {
@@ -1349,5 +1345,11 @@ label.error {
 @media only screen and (max-width: 700px){
     .modal-content {
         width: 100%;
+    }
+    body {
+        margin: auto;
+        width: 100%;
+        font: 14px "Merriweather Sans", "Roboto", Helvetica, Helvetica Neue, Arial;
+        font-weight: 300;
     }
 }
