@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Vindula Jayawardana</title>
@@ -29,6 +30,7 @@
 </head>
 
 <body>
+
 <table style="width:100%;max-width:975px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tbody>
     <tr style="padding:0px">
@@ -44,7 +46,7 @@
                             <name>Vindula Jayawardana</name>
                         </p>
                         <p style="text-align:center">Email : vindula [AT] mit [DOT] edu</p>
-                        <p>I am a first year PhD student in <a href="https://www.eecs.mit.edu/">EECS</a> at <a href="http://www.mit.edu/">MIT</a>. I am fortunate to be advised by Prof. <a href="http://www.wucathy.com/blog/">Cathy Wu</a>
+                        <p>I am a second year PhD student in <a href="https://www.eecs.mit.edu/">EECS</a> at <a href="http://www.mit.edu/">MIT</a>. I am fortunate to be advised by Prof. <a href="http://www.wucathy.com/blog/">Cathy Wu</a>
                             in the <a href="https://lids.mit.edu/"> Laboratory for Information and Decision Systems </a> (LIDS).
                             Earlier, I completed my bachelors at <a href="https://www.mrt.ac.lk/web/">
                                 University of Moratuwa </a> in Sri Lanka.
@@ -61,11 +63,11 @@
                             automation and AI into existing systems specifically in the mobility sphere.
                         </p>
                         <p style="text-align:center">
-                            <a href="docs/cv.pdf">CV</a> &nbsp|&nbsp
-                            <a href="https://github.com/Vindulamj">Github</a> &nbsp|&nbsp
                             <a href="https://scholar.google.com/citations?user=223zAYsAAAAJ&hl=en">Google Scholar</a>
                             &nbsp|&nbsp
+                            <a href="docs/cv.pdf">CV</a> &nbsp|&nbsp
                             <a href="https://www.linkedin.com/in/vindulajayawardana"> LinkedIn </a> &nbsp|&nbsp
+                            <a href="https://github.com/Vindulamj">Github</a> &nbsp|&nbsp
                             <a href="https://medium.com/@vindulajayawardana">Blog</a>
                         </p>
                     </td>
@@ -78,8 +80,8 @@
                     <td style="padding:20px;width:100%;vertical-align:middle">
                         <heading><b>Recent News</b></heading>
                         <ul>
-                            <li>September 2019 : I joined MIT as a PhD student in EECS</li>
-                            <li>January 2019 : I am honored to receive Migara Rathnatunga Trust Award Certificate for Industrial Training for University Undergraduates–2017/2018</li>
+                            <li>Our recent paper <a href="https://arxiv.org/pdf/2105.00994.pdf">preprint</a> <i>"Fleet management for ride-pooling with meeting points at scale: a case study in the five boroughs of New York City" was released.</i></li>
+                            <li>I will be presenting a poster at the <a href="https://www.eventbrite.com/e/mit-ibm-watson-ai-lab-virtual-open-house-tickets-146956385505">MIT-IBM Watson AI Lab Virtual Open House 2021.</a></li>
                         </ul>
                     </td>
                 </tr>
@@ -99,11 +101,65 @@
             <table style="width:100%;border:0px;border-spacing:3px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
 
+                <tr onmouseout="ride_pool_stop()" onmouseover="ride_pool_start()">
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <div class="two" id='ride_pool_image'><img src='images/p13.png' style="width: 200px; height: 150px"></div>
+                                <img src='images/p14.jpeg' style="width: 200px; height: 150px">
+                            </div>
+                            <script type="text/javascript">
+                                function ride_pool_start() {
+                                    document.getElementById('ride_pool_image').style.opacity = "1";
+                                }
+    
+                                function ride_pool_stop() {
+                                    document.getElementById('ride_pool_image').style.opacity = "0";
+                                }
+    
+                                ride_pool_stop()
+                            </script>
+                        </td>
+                        <td style="padding-left:20px;padding-top:45px;width:75%;vertical-align:middle">
+                            <a href="https://arxiv.org/pdf/2105.00994.pdf">
+                                <papertitle>Fleet management for ride-pooling with meeting
+                                    points at scale: a case study in the five boroughs
+                                    of New York City</papertitle>
+                            </a>
+                            <br>
+                            Motahare Mounesan, 
+                            <b>Vindula Jayawardana, </b>
+                            Yaocheng Wu, 
+                            Samitha Samaranayake, 
+                            Huy T. Vo
+                            <br>
+                            <em>To appear </em>, 2021
+                            <br>
+                            <a href="https://arxiv.org/pdf/2105.00994.pdf">[Paper]</a>
+                            <a class="cite" onclick="modalDisplay(0)">[Cite] </a>
+                            <div class="citeModal modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>@misc{mounesan2021fleet,
+                                        title={Fleet management for ride-pooling with meeting points at scale: a case study in the five boroughs of New York City}, 
+                                        author={Motahare Mounesan and Vindula Jayawardana and Yaocheng Wu and Samitha Samaranayake and Huy T. Vo},
+                                        year={2021},
+                                        eprint={2105.00994},
+                                        archivePrefix={arXiv},
+                                        primaryClass={eess.SY}
+                                  }</p>
+                                </div>
+                            </div>
+                            <br>
+                            <p></p>
+                        </td>
+                </tr>
+    
+
                 <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
                     <td style="padding:20px;width:25%;vertical-align:middle">
                         <div class="one">
-                            <div class="two" id='nightsight_image'><img src='images/p2.png' style="width: 200px; height: 150px"></div>
-                            <img src='images/p1.jpeg' style="width: 200px; height: 150px">
+                            <div class="two" id='nightsight_image'><img src='images/p2.jpeg' style="width: 200px; height: 150px"></div>
+                            <img src='images/p1.png' style="width: 200px; height: 150px">
                         </div>
                         <script type="text/javascript">
                             function nightsight_start() {
@@ -118,7 +174,7 @@
                         </script>
                     </td>
                     <td style="padding-left:20px;padding-top:45px;width:75%;vertical-align:middle">
-                        <a href="https://arxiv.org/pdf/1706.02909.pdf">
+                        <a href="https://arxiv.org/pdf/1706.02909.pdf"></a>
                             <papertitle>Deriving a Representative Vector for Ontology Classes with Instance Word Vector Embeddings</papertitle>
                         </a>
                         <br>
@@ -131,6 +187,21 @@
                         <br>
                         <em>INTECH </em>, 2017
                         <br>
+                        <a href="https://arxiv.org/pdf/1706.02909.pdf">[Paper]</a>
+                        <a class="cite" onclick="modalDisplay(1)">[Cite] </a>
+                            <div class="citeModal modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>@article{Jayawardana2017DerivingAR,
+                                        title={Deriving a representative vector for ontology classes with instance word vector embeddings},
+                                        author={Vindula Jayawardana and D. Lakmal and Nisansa de Silva and A. Perera and Keet Sugathadasa and Buddhi Ayesha},
+                                        journal={2017 Seventh International Conference on Innovative Computing Technology (INTECH)},
+                                        year={2017},
+                                        pages={79-84}
+                                      }</p>
+                                </div>
+                            </div>
+                        <br>
                         <p></p>
                     </td>
                 </tr>
@@ -139,7 +210,7 @@
                     <td style="padding:20px;width:25%;vertical-align:middle">
                         <div class="one">
                             <div class="two" id='font_image'><img src='images/p4.png' style="width: 200px; height: 150px"></div>
-                            <img src='images/p3.png' style="width: 200px; height: 150px">
+                            <img src='images/p3.jpeg' style="width: 200px; height: 150px">
                         </div>
                         <script type="text/javascript">
                             function font_start() {
@@ -166,6 +237,23 @@
                         Buddhi Ayesha
                         <br>
                         <em>ICTer</em>, 2017
+                        <br>
+                        <a href="https://arxiv.org/pdf/1709.02911.pdf">[Paper]</a>
+                        <a class="cite" onclick="modalDisplay(2)">[Cite] </a>
+                            <div class="citeModal modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>@INPROCEEDINGS{8257822,
+                                        author={Jayawardana, Vindula and Lakmal, Dimuthu and de Silva, Nisansa and Perera, Amal Shehan and Sugathadasa, Keet and Ayesha, Buddhi and Perera, Madhavi},
+                                        booktitle={2017 Seventeenth International Conference on Advances in ICT for Emerging Regions (ICTer)}, 
+                                        title={Semi-supervised instance population of an ontology using word vector embedding}, 
+                                        year={2017},
+                                        volume={},
+                                        number={},
+                                        pages={1-7},
+                                        doi={10.1109/ICTER.2017.8257822}}</p>
+                                </div>
+                            </div>
                         <br>
                         <p></p>
                     </td>
@@ -201,6 +289,23 @@
                         Dimuthu Lakmal
                         <br>
                         <em>ICIIS</em>, 2017
+                        <br>
+                        <a href="https://arxiv.org/pdf/1706.01967.pdf">[Paper]</a>
+                        <a class="cite" onclick="modalDisplay(3)">[Cite] </a>
+                            <div class="citeModal modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>@INPROCEEDINGS{8300343,
+                                        author={Sugathadasa, Keet and Ayesha, Buddhi and de Silva, Nisansa and Perera, Amal Shehan and Jayawardana, Vindula and Lakmal, Dimuthu and Perera, Madhavi},
+                                        booktitle={2017 IEEE International Conference on Industrial and Information Systems (ICIIS)}, 
+                                        title={Synergistic union of Word2Vec and lexicon for domain specific semantic similarity}, 
+                                        year={2017},
+                                        volume={},
+                                        number={},
+                                        pages={1-6},
+                                        doi={10.1109/ICIINFS.2017.8300343}}</p>
+                                </div>
+                            </div>
                         <br>
                         <p></p>
                     </td>
@@ -238,6 +343,22 @@
                         <br>
                         <em>ICTer Journal</em>, 2018
                         <br>
+                        <a href="http://journal.icter.org/index.php/ICTer/article/view/257">[Paper]</a>
+                        <a class="cite" onclick="modalDisplay(4)">[Cite] </a>
+                            <div class="citeModal modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>@article{Jayawardana2018WordVE,
+                                        title={Word Vector Embeddings and Domain Specific Semantic based Semi-Supervised Ontology Instance Population},
+                                        author={Vindula Jayawardana and D. Lakmal and Nisansa de Silva and A. Perera and Keet Sugathadasa and Buddhi Ayesha and Madhavi Perera},
+                                        journal={International Journal on Advances in Ict for Emerging Regions (icter)},
+                                        year={2018},
+                                        volume={11},
+                                        pages={1}
+                                      }</p>
+                                </div>
+                            </div>
+                        <br>
                     </td>
                 </tr>
 
@@ -272,6 +393,35 @@
                         Dimuthu Lakmal
                         <br>
                         <em>SAI</em>, 2018
+                        <br>
+                        <a href="https://arxiv.org/pdf/1805.10685.pdf">[Paper]</a>
+                        <a class="cite" onclick="modalDisplay(4)">[Cite] </a>
+                            <div class="citeModal modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>@InProceedings{Sugathadasa2019Legal,
+                                        author="Sugathadasa, Keet
+                                        and Ayesha, Buddhi
+                                        and de Silva, Nisansa
+                                        and Perera, Amal Shehan
+                                        and Jayawardana, Vindula
+                                        and Lakmal, Dimuthu
+                                        and Perera, Madhavi",
+                                        editor="Arai, Kohei
+                                        and Kapoor, Supriya
+                                        and Bhatia, Rahul",
+                                        title="Legal Document Retrieval Using Document Vector Embeddings and Deep Learning",
+                                        booktitle="Intelligent Computing",
+                                        year="2019",
+                                        publisher="Springer International Publishing",
+                                        address="Cham",
+                                        pages="160--175",
+                                        isbn="978-3-030-01177-2"
+                                        }
+                                        </p>
+                                </div>
+                            </div>
+                        <br>
                     </td>
                 </tr>
 
@@ -306,6 +456,9 @@
                         Dimuthu Lakmal
                         <br>
                         <em>ICIIS</em>, 2019
+                        <br>
+                        <a href="TODO">[Paper]</a>
+                        <br>
                     </td>
                 </tr>
 
@@ -342,9 +495,6 @@
                             <br>
 
                             <li>CS3962: Research and Report Writing : Teaching Assistant, UoM, Spring 2018.</li>
-                            <br>
-
-                            <li>CS2963: Presentation Skills : Teaching Assistant, UoM, Fall 2017.</li>
 
                         </ul>
                     </td>
@@ -358,7 +508,7 @@
                     <td style="padding:20px;width:100%;vertical-align:middle">
                         <heading><b>Selected Awards</b></heading>
                         <ul>
-                            <li>Digital Mobility Solutions Lanka Scholarship 2018, University of Moratuwa</li>
+                            <li>Digital Mobility Solutions Lanka Fellowship 2018, University of Moratuwa</li>
                             <br>
 
                             <li>Migara Ranathunga Trust Award 2018 : National Awards for University Undergraduates in Sri Lanka</li>
@@ -368,6 +518,20 @@
                             <br>
 
                             <li>Global Finalist in NASA International Space Apps 2017</li>
+                        </ul>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;line-height: 12px;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px;width:100%;vertical-align:middle">
+                        <heading><b>Students Mentored</b></heading>
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/alandler">Anna Landler</a> (MIT-SuperUROP)</li>
+                            <br>
                         </ul>
                     </td>
                 </tr>
@@ -389,6 +553,7 @@
                 </tr>
                 </tbody>
             </table>
+
 
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
@@ -430,20 +595,48 @@
 
 <!--End mc_embed_signup-->
 
-            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-                <td style="padding:0px">
-                    <br>
-                    <p style="text-align:right;font-size:small;">
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr>
+        <td style="padding:0px">
+            <br>
+            <p style="text-align:right;font-size:small;">
                         Website Design <a href="https://jonbarron.info/">&#9734</a><br>
-                        Last Updated on 10/10/2019 <br>
-                    </p>
-                </td>
-            </tr>
-            </tbody></table>
+                        Last Updated on 28/05/2021 <br>
+            </p>
+        </td>
+    </tr>
+        </tbody></table>
 
         </td>
     </tr>
 </table>
 </body>
+<script>
+
+function modalDisplay(modalId){
+    // Get the modal
+    var modal = document.getElementsByClassName("citeModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementsByClassName("cite");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[modalId];
+
+    // When the user clicks on the button, open the modal
+    modal[modalId].style.display = "block";
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+        modal[modalId].style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal[modalId]) {
+            modal[modalId].style.display = "none";
+        }
+    }
+}   
+</script>
 </html>
