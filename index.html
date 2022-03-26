@@ -25,6 +25,16 @@
         gtag('config', 'UA-116732893-1');
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GBMBCF6EFF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GBMBCF6EFF');
+    </script>
+
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" type="image/png" href="images/mit.png">
 </head>
@@ -78,12 +88,14 @@
                 <tbody>
                 <tr>
                     <td style="padding:20px;width:100%;vertical-align:middle;line-height:150%">
-                        <heading><b>Recent News</b></heading>
+                        <heading><b>Recent Updates</b></heading>
                         <ul>
-			    <li>Our paper "Reinforcement Learning for Eco-Lagrangian Control at Intersections" was accepted at <a href="https://ecc22.euca-ecc.org/">ECC 2022</a></i></li>
-			    <li>Our paper "Mixed Autonomous Supervision in Traffic Signal Control" was accepted at <a href="https://2021.ieee-itsc.org/">ITSC 2021</a></i></li>
-                            <li>Our recent paper "Fleet management for ride-pooling with meeting points at scale: a case study in the five boroughs of New York City" is now on <a href="https://arxiv.org/pdf/2105.00994.pdf">arXiv</a> </li>
-                            <li>I will be presenting a poster at the <a href="https://www.eventbrite.com/e/mit-ibm-watson-ai-lab-virtual-open-house-tickets-146956385505">MIT-IBM Watson AI Lab Virtual Open House 2021.</a></li>
+                            <li>I will be presenting a poster at the <a href="https://cee.mit.edu/events/cee-annual-research-day-climate-solutions-and-integration-of-sustainability-at-scale/">MIT CEE Annual Research Day</a> based on our recent work on reinforcement learning for eco-Lagrangian control at intersections.</li>
+			                <li>Our paper "Reinforcement Learning for Eco-Lagrangian Control at Intersections" was accepted at <a href="https://ecc22.euca-ecc.org/">ECC 2022.</a></i></li>
+                            <li>I gave an invited talk at <a href="https://uom.lk/"> Univerity of Moratuwa.</a></li>
+                            <li>Our paper "Mixed Autonomous Supervision in Traffic Signal Control" was accepted at <a href="https://2021.ieee-itsc.org/">ITSC 2021.</a></i></li>
+                            <li>Our paper "Fleet management for ride-pooling with meeting points at scale: a case study in the five boroughs of New York City" is now on <a href="https://arxiv.org/pdf/2105.00994.pdf">arXiv.</a> </li>
+                            <li>I presented a poster at <a href="https://www.eventbrite.com/e/mit-ibm-watson-ai-lab-virtual-open-house-tickets-146956385505">MIT-IBM Watson AI Lab Virtual Open House 2021.</a></li>
                         </ul>
                     </td>
                 </tr>
@@ -100,21 +112,19 @@
 			    <li>Typical Scenarios for Ethical Reinforcement Learning <br />
                                 Vindula Jayawardana, Catherine Tang, Dajiang Suo, Ignacio Lafuente, Cathy Wu <br /></li>
 			    <br>
+
 			    <li>Learning Corridor Clearance for Emergency Vehicles Under Mixed Autonomy<br />
                                 Dajiang Suo*, Vindula Jayawardana*, Cathy Wu (* = equal contribution)<br /></li>
 			    <br>
-			       <li >Reinforcement Learning for Eco-Lagrangian Control at Intersections<br />
-                                Vindula Jayawardana, Cathy Wu <br /></li>
-                            <br>
 			    
-                            <li>Path Clearance for Emergency Vehicles Under Mixed Autonomy: An Opportunity for Low Market Penetration CAVs<br />
+                <li>Path Clearance for Emergency Vehicles Under Mixed Autonomy: An Opportunity for Low Market Penetration CAVs<br />
                                 Dajiang Suo, Vindula Jayawardana, Cathy Wu <br /></li>
-			    
 			    <br>
+
 			    <li>The Braess Paradox in Dynamic Traffic <a href="http://arxiv.org/abs/2203.03726">[preprint]</a>  <br />
                                 Dingyi Zhuang, Yuzhu Huang, Vindula Jayawardana, Jinhua Zhao, Dajiang Suo, Cathy Wu <br /></li>	
-                        </ul>
-                    </td>
+                </ul>
+                </td>
                 </tr>
                 </tbody>
             </table>
@@ -132,6 +142,52 @@
 
             <table style="width:100%;border:0px;border-spacing:3px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
+                    <tr onmouseout="eco_driving_stop()" onmouseover="eco_driving_start()">
+                        <td style="padding:30px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <div class="two" id='eco_image'><img src='images/p18.jpeg' style="width: 185px; height: 150px"></div>
+                                <img src='images/p17.png' style="width: 190px; height: 150px">
+                            </div>
+                            <script type="text/javascript">
+                                function eco_driving_start() {
+                                    document.getElementById('eco_image').style.opacity = "1";
+                                }
+    
+                                function eco_driving_stop() {
+                                    document.getElementById('eco_image').style.opacity = "0";
+                                }
+    
+                                eco_driving_stop()
+                            </script>
+                        </td>
+                        <td style="padding-left:20px;padding-top:45px;width:75%;vertical-align:middle">
+                            <a href="">
+                                <papertitle>Reinforcement Learning for Eco-Lagrangian Control at Intersections</papertitle>
+                            </a>
+                            <br>
+                            Vindula Jayawardana, 
+                            Cathy Wu
+                            <br>
+                            <em>ECC</em>, 2022 (To appear)
+                            <br>
+                            <a href="https://vindulamj.github.io/eco-driving-rl/">[Website]</a>
+                            <a href="">[Paper]</a>
+                            <a class="cite" onclick="modalDisplay(0)">[Cite] </a>
+                            <div class="citeModal modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>@inproceedings{jayawardana2022,
+                                        title={Reinforcement Learning for Eco-Lagrangian Control at Intersections},
+                                        author={Vindula Jayawardana and Cathy Wu},
+                                        booktitle={20th European Control Conference (ECC)},
+                                        year={2022},
+                                    }</p>
+                                </div>
+                            </div>
+                            <br>
+                            <p></p>
+                        </td>
+                    </tr>
 
                     <tr onmouseout="traffic_signal_stop()" onmouseover="traffic_signal_start()">
                         <td style="padding:30px;width:25%;vertical-align:middle">
@@ -604,12 +660,12 @@
                 <tr>
                     <td style="padding:20px;width:100%;vertical-align:middle">
                         <heading><b>Students Mentored</b></heading>
-                        <ul>
-                            <li><a href="https://www.linkedin.com/in/alandler">Anna Landler</a> (MIT-SuperUROP)</li>
+                        <ul><li>
+                            <a href="">Catherine Tang</a> (MIT-UROP 2022)</li>
                             <br>
-                            <li><a href="https://www.linkedin.com/in/ammarfayad/">Ammar Fayad</a> (MIT-UROP)</li>
+                            <li><a href="https://www.linkedin.com/in/ammarfayad/">Ammar Fayad</a> (MIT-UROP 2021)</li>
                             <br>
-			    <li><a href="">Catherine Tang</a> (MIT-UROP)</li>
+                            <li><a href="https://www.linkedin.com/in/alandler">Anna Landler</a> (MIT-SuperUROP 2021)</li>
                         </ul>
                     </td>
                 </tr>
@@ -680,7 +736,7 @@
             <br>
             <p style="text-align:right;font-size:small;">
                         Website Design <a href="https://jonbarron.info/">&#9734</a><br>
-                        Last Updated on 11/08/2021 <br>
+                        Last Updated on 03/26/2022 <br>
             </p>
         </td>
     </tr>
