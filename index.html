@@ -117,9 +117,6 @@
                     <td style="padding:20px;width:100%;vertical-align:middle">
                         <heading><b>Articles in Review</b></heading>
                         <ul style="line-height: 1.3">
-			    <li>An Invisible Issue of Task Underspecification in Deep Reinforcement Learning <br />
-                    Vindula Jayawardana, Catherine Tang, Sirui Li, Dajiang Suo, Cathy Wu <br /></li>
-			    <br>
 
 			    <li>Learning Corridor Clearance for Emergency Vehicles Under Mixed Autonomy<br />
                     Dajiang Suo*, Vindula Jayawardana*, Cathy Wu (* = equal contribution)<br /></li>
@@ -154,11 +151,57 @@
 
             <table style="width:100%;border:0px;border-spacing:3px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
+                    <tr onmouseout="task_families_stop()" onmouseover="task_families_start()">
+                        <td style="padding:30px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <div class="two" id='bp_image'><img src='images/p21.gif' style="width: 180px; height: 150px"></div>
+                                <img src='images/p21.gif' style="width: 180px; height: 150px">
+                            </div>
+                            <script type="text/javascript">
+                                function task_families_start() {
+                                    document.getElementById('bp_image').style.opacity = "1";
+                                }
+    
+                                function task_families_stop() {
+                                    document.getElementById('bp_image').style.opacity = "0";
+                                }
+    
+                                task_families_stop()
+                            </script>
+                        </td>
+                        <td style="padding-left:20px;padding-top:45px;width:75%;vertical-align:middle">
+                            <a href="http://arxiv.org/abs/2203.03726">
+                                <papertitle>An Invisible Issue of Task Underspecification in Deep Reinforcement Learning</papertitle>
+                            </a>
+                            <br>
+                            Vindula Jayawardana, 
+                            Catherine Tang, 
+                            Sirui Li,
+                            Dajiang Suo, 
+                            Cathy Wu
+                            <br>
+                            <em>Advances in Neural Information Processing Systems (NeurIPS)</em>, 2022, To appear
+                            <br>
+                            <a class="cite" onclick="modalDisplay(0)">[Cite] </a>
+                            <div class="citeModal modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>@INPROCEEDINGS{task_families_jayawardana,  author={Jayawardana, Vindula and Tang, Catherine and Li, Sirui and Suo, Dajiang and Wu, Cathy},  
+                                        booktitle={Advances in Neural Information Processing Systems (NeurIPS)},   
+                                        title={An Invisible Issue of Task Underspecification in Deep Reinforcement Learning},   year={2022}}</p>
+                                </div>
+                            </div>
+                            <br>
+                            <p></p>
+                        </td>
+                </tr>
+
+
                     <tr onmouseout="eco_driving_stop()" onmouseover="eco_driving_start()">
                         <td style="padding:30px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <div class="two" id='eco_image'><img src='images/p18.jpeg' style="width: 185px; height: 150px"></div>
-                                <img src='images/p17.png' style="width: 190px; height: 150px">
+                                <div class="two" id='eco_image'><img src='images/p17.gif' style="width: 185px; height: 150px"></div>
+                                <img src='images/p18.gif' style="width: 190px; height: 150px">
                             </div>
                             <script type="text/javascript">
                                 function eco_driving_start() {
@@ -181,7 +224,7 @@
                             Cathy Wu
                             <br>
                             <em>European Control Conference (ECC)</em>, 2022 <br>
-			                <em>International Conference on Robotics and Automation (ICRA) 2022. Robotics for Climate Change workshop</em>, 2022 <br>
+			                <em>International Conference on Robotics and Automation (ICRA) 2022. Robotics for Climate Change workshop</em>, 2022 (Spotlight Talk)<br>
 			                Press: <a href="https://news.mit.edu/2022/ai-autonomous-driving-idle-0517">On the road to cleaner, greener, and faster driving</a> – MIT News<p style="color:red;display:inline"> Home page feature.</p><br>
 					Press: <a href="https://techcrunch.com/2022/05/30/perceptron-ai-roundup-robots-rocket-league/">Perceptron: Risky teleoperation, Rocket League simulation and zoologist multiplication</a> – Tech Crunch.
                             <br>
@@ -192,7 +235,7 @@
 			                <a href="docs/icra-presentation.pdf">[ICRA Presentation]</a>
 			                <a href="docs/icra-poster.pdf">[ICRA Poster]</a>
 					<a href="https://youtu.be/cZJEO3YCgJU">[ECC Video]</a>
-                            <a class="cite" onclick="modalDisplay(0)">[Cite] </a>
+                            <a class="cite" onclick="modalDisplay(1)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
@@ -242,7 +285,7 @@
                             <em>IEEE Intelligent Transportation Systems Conference (ITSC)</em>, 2022
                             <br>
                             <a href="http://arxiv.org/abs/2203.03726">[Paper]</a>
-                            <a class="cite" onclick="modalDisplay(1)">[Cite] </a>
+                            <a class="cite" onclick="modalDisplay(2)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
@@ -286,7 +329,7 @@
                             <em>IEEE Intelligent Transportation Systems Conference (ITSC)</em>, 2021
                             <br>
                             <a href="https://ieeexplore.ieee.org/abstract/document/9565053/">[Paper]</a>
-                            <a class="cite" onclick="modalDisplay(2)">[Cite] </a>
+                            <a class="cite" onclick="modalDisplay(3)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
@@ -335,7 +378,7 @@
                             <em>To appear</em>, 2021
                             <br>
                             <a href="https://arxiv.org/pdf/2105.00994.pdf">[Paper]</a>
-                            <a class="cite" onclick="modalDisplay(3)">[Cite] </a>
+                            <a class="cite" onclick="modalDisplay(4)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
@@ -388,7 +431,7 @@
                         <em>INTECH</em>, 2017
                         <br>
                         <a href="https://arxiv.org/pdf/1706.02909.pdf">[Paper]</a>
-                        <a class="cite" onclick="modalDisplay(4)">[Cite] </a>
+                        <a class="cite" onclick="modalDisplay(5)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
@@ -439,7 +482,7 @@
                         <em>ICTer</em>, 2017
                         <br>
                         <a href="https://arxiv.org/pdf/1709.02911.pdf">[Paper]</a>
-                        <a class="cite" onclick="modalDisplay(5)">[Cite] </a>
+                        <a class="cite" onclick="modalDisplay(6)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
@@ -491,7 +534,7 @@
                         <em>ICIIS</em>, 2017
                         <br>
                         <a href="https://arxiv.org/pdf/1706.01967.pdf">[Paper]</a>
-                        <a class="cite" onclick="modalDisplay(6)">[Cite] </a>
+                        <a class="cite" onclick="modalDisplay(7)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
@@ -544,7 +587,7 @@
                         <em>ICTer Journal</em>, 2018
                         <br>
                         <a href="http://journal.icter.org/index.php/ICTer/article/view/257">[Paper]</a>
-                        <a class="cite" onclick="modalDisplay(7)">[Cite] </a>
+                        <a class="cite" onclick="modalDisplay(8)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
@@ -595,7 +638,7 @@
                         <em>SAI</em>, 2018
                         <br>
                         <a href="https://arxiv.org/pdf/1805.10685.pdf">[Paper]</a>
-                        <a class="cite" onclick="modalDisplay(8)">[Cite] </a>
+                        <a class="cite" onclick="modalDisplay(9)">[Cite] </a>
                             <div class="citeModal modal">
                                 <div class="modal-content">
                                     <span class="close">&times;</span>
